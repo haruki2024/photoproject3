@@ -1,0 +1,431 @@
+.kosugi-maru-regular {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Kosugi Maru";
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 235, 208);
+}
+
+header{
+    color: white;
+    background-color: burlywood;
+}
+
+
+
+.nav-brand{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    font-size: 40px;
+    padding-top: 40px;
+    color: #fff;
+    text-decoration: none;
+    gap: 8px;
+    margin-left: 30px;
+}
+
+
+  
+.nav-brand strong {
+    display: flex;
+    align-items: center;
+}
+
+
+.list-unstyled{
+    margin-right: 40px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-unstyled a{
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+img.logo{
+    width: 60px;
+    height: 60px;
+}
+
+img.post{
+    width: 450px;
+    height: 300px;
+}
+
+   .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px
+    }
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto
+}
+
+.figure {
+    display: inline-block
+}
+
+.figure-img {
+    margin-bottom: .5rem;
+    line-height: 1
+}
+
+.figure-caption {
+    font-size: .875em;
+    color: #6c757d
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container,
+    .container-sm {
+        max-width: 540px
+    }
+}
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+    }
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5)
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y)
+}
+
+
+
+    .col-md {
+        flex: 1 0 0%
+    }
+    .row-cols-md-auto>* {
+        flex: 0 0 auto;
+        width: auto
+    }
+    .row-cols-md-1>* {
+        flex: 0 0 auto;
+        width: 100%
+    }
+    .row-cols-md-2>* {
+        flex: 0 0 auto;
+        width: 50%
+    }
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 33.3333333333%
+    }
+    .row-cols-md-4>* {
+        flex: 0 0 auto;
+        width: 25%
+    }
+    .row-cols-md-5>* {
+        flex: 0 0 auto;
+        width: 20%
+    }
+    .row-cols-md-6>* {
+        flex: 0 0 auto;
+        width: 16.6666666667%
+    }
+
+
+
+
+.container-list{
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.mypage{
+    margin: 30px;
+}
+
+.signup{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.main-left{
+    margin: 30px;
+    width: 20%;
+    background-color: #d2b17f;
+    border-radius: 30px;
+    list-style-type: none;
+}
+
+.list{
+    display: flex;
+    justify-self: center;
+}
+
+.list2{
+    display: flex;
+    float: center;
+    flex-wrap: wrap;
+}
+
+.col1{
+    margin: 30px;
+    width: 250px;
+}
+
+.offset-3{
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.offset-3 .photo {
+    width: 640px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.offset-3 .photo-detail {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.offset-3 .photo-detail .photo-text{
+    text-align: left;
+}
+
+.offset-3 .photo-detail .user{
+    margin: 60px;
+    color: red;
+}
+
+.container{
+    margin-bottom: 30px;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.btn-group{
+	display: flex;
+    justify-self: center;
+}
+
+.text-user{
+    color: #888888;
+    text-decoration: none;
+}
+
+.post-form{
+    justify-self: center;
+    margin: 40px;
+}
+
+button.btn{
+    font-size: auto;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+    margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	border: 2px solid burlywood;
+	color: burlywood;
+    background-color: #fffefd;
+	transition: 0.5s;
+}
+button.btn:hover {
+	color: #fff;
+	background: burlywood;
+}
+
+button.btn_02 {
+    font-size: auto;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+    margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	border: 2px solid rgb(255, 79, 79);
+	color: rgb(255, 79, 79);
+    background-color: #fffefd;
+	transition: 0.5s;
+}
+button.btn_02:hover {
+	color: #fff;
+	background: rgb(255, 79, 79);
+}
+
+a.btn_01 {
+    font-size: auto;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+    margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	border: 2px solid burlywood;
+	color: rgb(176, 149, 113);
+    background-color: #fffefd;
+	transition: 0.5s;
+}
+a.btn_01:hover {
+	color: #fff;
+	background: burlywood;
+}
+
+a.btn_03 {
+    font-size: auto;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+    margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	color: rgb(165, 165, 165);
+	transition: 0.5s;
+}
+a.btn_03:hover {
+	color: #292929;
+}
+
+
+.form-control{
+	width: 20%; /*親要素いっぱい広げる*/
+
+	padding: 10px 15px; /*ボックスを大きくする*/
+	font-size: 16px;
+    margin: 30px;
+	border-radius: 3px; /*ボックス角の丸み*/
+	border: 2px solid #989898; /*枠線*/
+	box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+
+.form-control:focus {
+    border: 2px solid #ff9900; 
+    z-index: 10;
+    outline: 0;
+
+}
+.user-name{
+    font-weight: 400;
+    font-size: 15px;
+}
+.user-btn{
+    font-weight: bolder;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.user-comment{
+    font-size: 15px;
+}
+
+.user-time{
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding-top: 20px;
+}
+
+footer a{
+    color: #888888;
+    text-decoration: none;
+}
+
